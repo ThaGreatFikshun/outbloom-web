@@ -26,9 +26,9 @@
 /* Colors */
 :root {
 --color-default: #2b180d;
-  --color-primary: #155bd5;
+  --color-primary: #ffc300;
   --color-secondary: #1b2f45;
-  --primary: #155bd5;
+  --primary: #ffc300;
   --primary-dark: #1c3ab6;
   --primary-light: #e2f1ff;
   --accent: #00d4d7;
@@ -239,7 +239,7 @@ section {
 .breadcrumbs h2 {
   font-size: 48px; /* Slightly smaller for a balanced look */
   font-weight: 600; /* Increased weight for better emphasis */
-  color: #fff;
+  color: #000;
   font-family: var(--font-secondary);
   text-align: center; /* Center alignment for better visual impact */
   margin-bottom: 20px; /* Added margin for spacing */
@@ -258,7 +258,7 @@ section {
 }
 
 .breadcrumbs ol a {
-  color: rgba(255, 255, 255, 1);
+  color: #000;
   transition: color 0.3s; /* Smooth transition for color change */
 }
 
@@ -274,7 +274,7 @@ section {
 .breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 15px; /* Increased padding for better separation */
-  color: #fff;
+  color: #000;
   content: "/";
 }
 
@@ -388,7 +388,7 @@ section {
 }
 
 .header .logo img {
-  /*max-height: 40px;*/
+  max-height: 40px;
   margin-right: 6px;
 }
 
@@ -429,7 +429,7 @@ section {
     font-family: var(--font-default);
     font-size: 1em;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
+    color: #000;
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -445,7 +445,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #000;
   }
 
   .navbar .dropdown ul {
@@ -458,7 +458,7 @@ section {
     z-index: 99;
     opacity: 0;
     visibility: hidden;
-    background: #fff;
+    background: #000;
     box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
     transition: 0.2s;
   }
@@ -542,7 +542,8 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(21, 91, 213, 0.9);
+    /* background: rgba(21, 91, 213, 0.9); */
+    background: #FFC300;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -692,13 +693,13 @@ position: relative;
 }
 
 .hero h2 {
-  /*margin: 0;
+  margin: 0;
   font-size: 48px;
   font-weight: 700;
   line-height: 1.2;
-  color: #fff;
+  color: #000;
   font-family: var(--font-secondary);
-  */
+ 
   font-size: 2.75em;
     line-height: 1.25;
   font-weight: 700;
@@ -710,13 +711,13 @@ position: relative;
 .hero blockquote {
   
   padding-left: 20px;   
-  border-left: 2px solid rgba(255,255,255,.7);
+  border-left: 2px solid #000;
   margin: 40px 0;
    
 }
 
 .hero p {  
-    color: var(--white);
+    color: var(--black);
     opacity: 0.7;
 }
 
@@ -768,11 +769,11 @@ position: relative;
 }
 
 .hero .btn-watch-video:hover {
-  color: #fff;
+  color: #000;
 }
 
 .hero .btn-watch-video:hover i {
-  color: #fff;
+  color: #000;
 }
 
 
@@ -843,7 +844,7 @@ position: relative;
 }
 
 .why-us .slides {
-  background-color: #f7f9fc;
+  background-color: #000;
 }
 
 .why-us h3 {
@@ -855,7 +856,7 @@ position: relative;
 .why-us h4 {
   font-size: 18px;
   font-weight: 400;
-  color: #29486a;
+  color: #FFC300;
   font-family: var(--font-secondary);
 }
 
@@ -924,7 +925,7 @@ position: relative;
 
 .about .content p {
   margin: 30px 0;
-  color: #29486a;
+  color: #FFC300;
 }
 
 .about .content ul {
@@ -1169,7 +1170,7 @@ background: var(--color-white);}
 
 .features .icon-list span {
   font-size: 18px;
-  color: #29486a;
+  color: #FFC300;
 }
 
 .features .phone-wrap {
