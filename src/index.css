@@ -230,10 +230,10 @@ section {
 
 .breadcrumbs:before {
   content: "";
-  background-color: rgba(21, 91, 213, 0.8); /* Slightly lighter overlay for improved readability */
+  background-color: #FFC300;
   position: absolute;
   inset: 0;
-  border-radius: 10px; /* Rounded corners for a softer look */
+  border-radius: 0px; /* Rounded corners for a softer look */
 }
 
 .breadcrumbs h2 {
@@ -920,7 +920,7 @@ position: relative;
   font-weight: 700;
   font-size: 36px;
   font-family: var(--font-secondary);
-  color: var(--color-secondary);
+  color: var(--color-primary);
 }
 
 .about .content p {
@@ -1063,10 +1063,11 @@ position: relative;
 # Call To Action Section
 --------------------------------------------------------------*/
 .facts {
- background: linear-gradient(rgba(21 91 213 / 80%), rgba(21 91 213 / 100%)), url("./img/cta-bg1.jpg") center center;
+  background: url("./img/building\ resilience.jpg") center center;
   background-size: cover;
-  padding: 100px 0; 
+  padding: 100px 0;
 }
+
 
 @media (min-width: 1365px) {
   .facts {
@@ -1082,13 +1083,13 @@ position: relative;
 }*/
 .facts h3 {
 	color: #fff;
-	/*font-size: 28px;*/
+	font-size: 28px;
 	margin-bottom: 6px;
 	font-weight: 400;
 }
 
 .facts p {
-  color: #9ccff7;
+  color: #fff;
   margin-bottom: 25px;
   font-size:18px;
   
@@ -1110,7 +1111,7 @@ background: var(--color-white);}
   transition: 0.5s;
   margin: 10px;
   color: #fff;
-  background: #2aa5df;
+  background: #000;
 }
 
 .facts .cta-btn:hover {
@@ -1134,7 +1135,7 @@ background: var(--color-white);}
   margin: 0 0 10px 0;
   font-size: 18px;
   font-weight:400;
-  color: #9ccff7;
+  color: #FFC300;
 }
 
 .facts .facts-img {
