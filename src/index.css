@@ -383,7 +383,8 @@ section {
 }
 
 .header.sticked {
-  background: var(--primary);
+  /* background: var(--primary); */
+  background: #fff;
   padding: 5px 0;
 }
 
@@ -2828,7 +2829,7 @@ padding:10px;
 }
 .footer .footer-content .footer-info .logo img {
   /*max-height: 40px;*/
-   max-width: 100px;
+   max-width: 140px;
   margin-right: 6px;
 }
 
