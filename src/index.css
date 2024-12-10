@@ -2824,11 +2824,11 @@ padding:10px;
 .footer .footer-content .footer-info .logo {
   line-height: 0;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
-
 .footer .footer-content .footer-info .logo img {
   /*max-height: 40px;*/
-   max-width: 140px;
+   max-width: 100px;
   margin-right: 6px;
 }
 

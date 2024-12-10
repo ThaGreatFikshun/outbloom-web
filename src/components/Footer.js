@@ -1,5 +1,5 @@
 import React from "react";
-import footerLogo from '../img/Outbloom.png.png';
+import footerLogo from '../img/Outbloofooter.png.png';
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 
