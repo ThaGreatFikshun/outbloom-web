@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/Outbloom-logo (1).png";
+import logo from "../img/Outbloom.png.png";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useLocation } from 'react-router-dom'
