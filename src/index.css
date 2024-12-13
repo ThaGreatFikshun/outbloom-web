@@ -153,7 +153,7 @@ section {
   display: block;
   width: 60px;
   height: 2px;
-  background: var(--color-primary);
+  background: #ffffff;
   left: 0;
   right: 0;
   bottom: 0;
@@ -564,7 +564,7 @@ section {
     padding: 50px 0 10px 0;
     margin: 0;
     /* background: rgba(21, 91, 213, 0.9); */
-    background: #FFC300;
+    background: #FFFFFF;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -613,7 +613,7 @@ section {
   }
 
   .mobile-nav-show {
-    color: rgba(255, 255, 255, 0.9);
+    color: #ffcc00;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
