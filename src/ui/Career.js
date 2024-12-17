@@ -25,16 +25,16 @@ const Career = () => {
                 <img
                   src={career}
                   className="img-fluid"
-                  alt="Join us at Out Bloom to build a great future"
-                  title="Join us at Out Bloom to build a great future"
+                  alt="Join us at Outbloom to build a great future"
+                  title="Join us at Outbloom to build a great future"
                 />
               </div>
               <div className="col-lg-6">
                 <p>
-                  At Out Bloom, we believe people are the core of any successful business. Our dynamic and fast-paced work environment is driven by talented individuals who propel us forward. As we continue to expand, we are always on the lookout for motivated and skilled individuals to grow alongside us.
+                  At Outbloom, we believe people are the core of any successful business. Our dynamic and fast-paced work environment is driven by talented individuals who propel us forward. As we continue to expand, we are always on the lookout for motivated and skilled individuals to grow alongside us.
                 </p>
                 <p>
-                  We nurture talent with a long-term vision, offering an exciting work atmosphere and exceptional growth opportunities. Whether you're looking to grow your skills or take your career to the next level, Out Bloom is the place to be.
+                  We nurture talent with a long-term vision, offering an exciting work atmosphere and exceptional growth opportunities. Whether you're looking to grow your skills or take your career to the next level, Outbloom is the place to be.
                 </p>
                 <div className="content">
                   <blockquote>

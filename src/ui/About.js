@@ -4,6 +4,7 @@ import '../../node_modules/aos/dist/aos.css';
 import about_img from '../img/Growth.jpg';
 import md from '../img/team/no-image.jpg';
 import se from '../img/team/Fikshun.png';
+import joyceImage from '../img/team/joyce.jpg'
 import InnerHeaderBanner from '../components/InnerHeaderBanner';
 import InnerHeader from '../components/InnerHeader';
 import Footer from '../components/Footer';
@@ -32,8 +33,8 @@ const About = () => {
                 <img src={about_img} className="img-fluid" alt="Empowering Startups" title="Empowering Startups" />
               </div>
               <div className="col-lg-6">
-              <p>Out Bloom was founded in 2024 with a clear mission: to empower startups by providing the time, resources, and expertise they need to ideate, innovate, and commercialize their products. We recognize that after the 'aha' moment, the real work begins. Our goal is to support startups through the complexities of launching, validating, and growing their products, helping them navigate the often-complicated journey from concept to market.</p>
-              <p>The name "Out Bloom" reflects our philosophy of nurturing relationships that benefit all parties involved. We are committed to partnering with our clients as goal and action partners, focusing on their objectives while building resilience to face the inevitable obstacles that arise. Our journey is not just about enhancing top-line revenue; it’s also about fostering a company culture that values our employees and gives back to the community.</p>
+              <p>Outbloom was founded in 2024 with a clear mission: to empower startups by providing the time, resources, and expertise they need to ideate, innovate, and commercialize their products. We recognize that after the 'aha' moment, the real work begins. Our goal is to support startups through the complexities of launching, validating, and growing their products, helping them navigate the often-complicated journey from concept to market.</p>
+              <p>The name "Outbloom" reflects our philosophy of nurturing relationships that benefit all parties involved. We are committed to partnering with our clients as goal and action partners, focusing on their objectives while building resilience to face the inevitable obstacles that arise. Our journey is not just about enhancing top-line revenue; it’s also about fostering a company culture that values our employees and gives back to the community.</p>
               <p>Since our inception, we have positioned ourselves as a leader in outsourced HR services for startups, providing comprehensive support for the day-to-day employee lifecycle, including recruitment and employee contracting. Our determination to help our clients succeed is matched only by our commitment to social responsibility, as we dedicate a portion of every dollar earned to making a positive difference in the world.</p>
 
               </div>
@@ -63,7 +64,7 @@ const About = () => {
                     <div className="col-xl-12">
                       <div className="card-body">
                         <h4 className="card-title">Mission</h4>
-                        <p>Out Bloom is dedicated to providing comprehensive coaching, strategic guidance, and outsourced HR services to help startups navigate their growth journey, overcome challenges, and achieve their goals with resilience and confidence.</p>
+                        <p>Outbloom is dedicated to providing comprehensive coaching, strategic guidance, and outsourced HR services to help startups navigate their growth journey, overcome challenges, and achieve their goals with resilience and confidence.</p>
                       </div>
                     </div>
                   </div>
@@ -93,70 +94,97 @@ const About = () => {
         </div>
 
         <section id="management" className="management light-bg aos-init" data-aos="fade-up" data-aos-delay="300">
-          <div className="container">
-            <div className="section-header">
-              <h2>Our Team</h2>
-              <p>Leveraging their vast experience within the Telecom value-added services industry, Out Bloom's leadership team is dedicated to meet and exceed customer expectations with innovative and cost-effective solutions, industry know-how, and unmatched services.</p>
-            </div>
-            <div className="row member d-flex align-items-center ">
-              <div className="col-md-2">
-                <div className="pic"><img src={md} className="img-fluid" alt="" /></div>
-              </div>
-              <div className="col-md-10">
-                <div className="member-info">
-                  <h4>Joyce Maingi</h4>
-                  <span>CEO & HR Manager</span>
-                  <p>
-                  Joyce Maingi is a seasoned Human Resource professional with over 10 years of experience in the public sector. Currently serving as the Human Resource and Administration Manager at Konza Technopolis Development Authority, she brings a wealth of knowledge and expertise in managing human capital.
-                  </p>
-                  <p>
-                  She holds an MSc in Human Resource Management from Jomo Kenyatta University of Agriculture and Technology, a Bachelor of Commerce in Human Resource Management from the University of Nairobi, and a Higher National Diploma in Human Resource Management from the Institute of Human Resource Management.
-                  </p>
-                  <p>
-                  Ms. Maingi has previously worked with esteemed institutions such as the Kenya School of Law, Kenya School of Government, and the Kenya Film Commission, further enriching her background in human resource management. She is also a full member of the Institute of Human Resource Management and has participated in numerous training and seminars to continuously enhance her skills and expertise in the field.
-                  </p>
-                  <div className="social">
+        <div className="container">
+          <div className="section-header">
+            <h2>Our Team</h2>
+            <p>Meet our dedicated team of professionals committed to delivering innovative solutions and exceptional service.</p>
+          </div>
 
-                    <Link to="/"><i className="bi bi-twitter"></i></Link>
-                    <Link to="/"><i className="bi bi-linkedin"></i></Link>
-                    <Link to="/" target="_blank"><i className="bi bi-facebook"></i></Link>
-                    <Link to="/" target="_blank"><i className="bi bi-youtube"></i></Link>
-                  </div>
-                </div>
-              </div>
+          {/* Team Member: Joyce Maingi */}
+          <div className="row member d-flex align-items-center">
+            <div className="col-md-2">
+              <div className="pic"><img src={joyceImage} className="img-fluid" alt="Joyce Maingi" /></div>
             </div>
-            <div className="row member d-flex align-items-center mt-4">
-              <div className="col-md-2">
-                <div className="pic"><img src={se} className="img-fluid" alt="" /></div>
-              </div>
-              <div className="col-md-10">
-                <div className="member-info">
-                  <h4>James (ThaGreatFikshun)</h4>
-                  <span>Software Engineer</span>
-                  <p>
-                  As a graduate of Applied Computer Science from United States International University-Africa, James brings a unique blend of technical expertise and a passion for innovation to the field of UI/UX engineering. His background in development, coupled with strong communication skills, positions him as a driving force for positive change through technology.
-                  </p>
-                  <p>
-                  Proficient in a range of programming languages and tools such as Flutter, Django, Kotlin, Python, PHP, HTML, CSS, C#, and the .NET framework, James has proven his ability to tackle complex challenges with ease. He also holds expertise in Microsoft Excel data analysis, SQL Server, IT support, and various system analysis and design methodologies.
-                  </p>
-                  <p>
-                  In his current role as a UI/UX Engineer, James has shown exceptional skills in collaborating with DevOps teams, crafting intuitive interfaces, and designing wireframes that effectively communicate design concepts. His work closely integrates UI/UX elements with backend functionalities to optimize user workflows and productivity within the DevOps pipeline.
-                  </p>
-                  <p>
-                  Driven by a passion for continuous improvement, James constantly assesses and enhances the usability and accessibility of software applications to meet the evolving needs of users. His commitment to delivering impactful solutions makes him a key contributor to projects aimed at advancing innovation in UI/UX engineering.
-                  </p>
-                  <div className="social">
-
-                    <Link to="/"><i className="bi bi-twitter"></i></Link>
-                    <Link to="/" target="_blank"><i className="bi bi-linkedin"></i></Link>
-                    <Link to="/" target="_blank"><i className="bi bi-facebook"></i></Link>
-                    <Link to="/" target="_blank"><i className="bi bi-youtube"></i></Link>
-                  </div>
+            <div className="col-md-10">
+              <div className="member-info">
+                <h4>Joyce Maingi</h4>
+                <span>Mentor & Coach</span>
+                <p>
+                  Joyce is a seasoned HR professional with over 10 years of experience. As the HR and Administration Manager, she excels in managing human capital effectively.
+                </p>
+                <p>
+                  She holds an MSc in Human Resource Management and is a full member of the Institute of Human Resource Management.
+                </p>
+                <div className="social">
+                  <Link to="/"><i className="bi bi-twitter"></i></Link>
+                  <Link to="/" target="_blank"><i className="bi bi-linkedin"></i></Link>
+                  <Link to="/" target="_blank"><i className="bi bi-facebook"></i></Link>
+                  <Link to="/" target="_blank"><i className="bi bi-youtube"></i></Link>
                 </div>
               </div>
             </div>
           </div>
-        </section>
+
+          {/* Team Member: James (ThaGreatFikshun) */}
+          <div className="row member d-flex align-items-center mt-4">
+            <div className="col-md-2">
+              <div className="pic"><img src={se} className="img-fluid" alt="James ThaGreatFikshun" /></div>
+            </div>
+            <div className="col-md-10">
+              <div className="member-info">
+                <h4>James (ThaGreatFikshun)</h4>
+                <span>IT Data Specialist</span>
+                <p>
+                  James is a graduate of Applied Computer Science with expertise in UI/UX engineering. He is proficient in various programming languages and focuses on enhancing user experiences through innovative design.
+                </p>
+                <p>
+                  His work integrates UI/UX with backend functionalities to optimize workflows in the DevOps pipeline.
+                </p>
+                <div className="social">
+                  <Link to="/"><i className="bi bi-twitter"></i></Link>
+                  <Link to="/" target="_blank"><i className="bi bi-linkedin"></i></Link>
+                  <Link to="/" target="_blank"><i className="bi bi-facebook"></i></Link>
+                  <Link to="/" target="_blank"><i className="bi bi-youtube"></i></Link>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Team Member: Stella Muhoro */}
+          <div className="row member d-flex align-items-center mt-4">
+            <div className="col-md-2">
+              <div className="pic"><img src={md} className="img-fluid" alt="Stella Muhoro" /></div> {/* Ensure you import stellaImage */}
+            </div>
+            <div className="col-md-10">
+              <div className="member-info">
+                <h4>Stella Muhoro</h4>
+                <span>Marketing Specialist</span>
+                <p>
+                  Stella specializes in crafting effective marketing strategies that enhance brand visibility and engagement. With a background in digital marketing, she drives campaigns that resonate with audiences.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Team Member: Ruth Munithi */}
+          <div className="row member d-flex align-items-center mt-4">
+            <div className="col-md-2">
+              <div className="pic"><img src={md} className="img-fluid" alt="Ruth Munithi" /></div> {/* Ensure you import ruthImage */}
+            </div>
+            <div className="col-md-10">
+              <div className="member-info">
+                <h4>Ruth Munithi</h4>
+                <span>Startup Communication Specialist</span>
+                <p>
+                  Ruth focuses on enhancing communication strategies for startups, ensuring clear messaging that aligns with business goals. Her expertise helps startups effectively engage with their audiences.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div> {/* End of container */}
+      </section>
+
 
       </main>
       <Footer />

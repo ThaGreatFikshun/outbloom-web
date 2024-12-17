@@ -47,19 +47,20 @@ const services = [
     aosDelay: 300,
   },
   {
-    title: "Integration & Security",
-    description: "We prioritize the security of our solutions and offer integrations with various platforms to ensure seamless user experiences.",
+    title: "HR Consultancy",
+    description: "Our HR consultancy services focus on optimizing your workforce management, enhancing employee engagement, and ensuring compliance with labor laws.",
     details: [
-      "Integration: \"Connect with various platforms for enhanced functionality.\"",
-      "Data Security: \"Protecting your data with state-of-the-art measures.\"",
-      "User Experience: \"Ensuring a seamless and secure user experience.\"",
+      "Talent Acquisition: \"Helping you find and attract the right talent for your organization.\"",
+      "Employee Engagement: \"Implementing strategies to boost morale and productivity within your team.\"",
+      "Compliance: \"Ensuring your HR practices align with current labor laws and regulations.\"",
     ],
-    icon: "bi bi-shield-lock",
-    iconColor: "#15a04a",
-    buttonText: "Explore Integration Options",
-    link: "/services/integration-security",
+    icon: "bi bi-person-check", // Updated icon for HR consultancy
+    iconColor: "#15a04a", // Icon color remains the same
+    buttonText: "Explore HR Solutions",
+    link: "/services/hr-consultancy", // Updated link for HR consultancy
     aosDelay: 400,
   },
+  
   {
     title: "Marketing Strategy",
     description: "Crafting tailored marketing strategies that resonate with your target audience and drive engagement.",
@@ -109,7 +110,7 @@ const ServiceList = () => {
         <div className="section-header">
           <h2>What we do?</h2>
           <p>
-            At Out Bloom, we provide tailored services for startups, helping them navigate challenges and scale their operations efficiently.
+            At Outbloom, we provide tailored services for startups, helping them navigate challenges and scale their operations efficiently.
           </p>
         </div>
         <div className="row gy-5">

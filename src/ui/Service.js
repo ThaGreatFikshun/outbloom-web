@@ -2,7 +2,7 @@ import React from "react";
 import RB from "../img/building resilience.jpg";
 import CT from "../img/communication.jpg";
 import RA from "../img/business-growth.jpg";
-import IS from "../img/security.jpg";
+import HRImage from "../img/hr-consultancy.jpg";
 import C4S from "../img/coaching.jpg";
 import POO from "../img/outsourcing.jpg"; 
 import CS from "../img/commercialization.jpg";
@@ -173,26 +173,27 @@ const Service = () => {
 
 
         <section className="services-list">
-          <div className="container" id="integration-security">
-            <div className="row gy-5 align-items-center">
-              <div className="col-lg-5 col-md-6 service-item" data-aos="fade-up" data-aos-delay="100">
-              <img src={IS} className="img-fluid" alt="Integration & Security" style={{ borderRadius: '15px' }} />
+        <div className="container" id="hr-consultancy">
+          <div className="row gy-5 align-items-center">
+            <div className="col-lg-5 col-md-6 service-item" data-aos="fade-up" data-aos-delay="100">
+              <img src={HRImage} className="img-fluid" alt="HR Consultancy" style={{ borderRadius: '15px' }} />
             </div>
 
-              <div className="col-lg-7 col-md-6 service-item" data-aos="fade-up" data-aos-delay="300">
-                <div className="icon flex-shrink-0">
-                  <i className="bi bi-shield-lock" style={{ color: "#15a04a" }}></i> {/* Integration & Security */}
-                </div>
-                <div>
-                  <h4 className="title">Integration & Security</h4>
-                  <p className="description">
-                    We prioritize the security of our solutions and offer integrations with various platforms to ensure seamless user experiences.
-                  </p>
-                </div>
+            <div className="col-lg-7 col-md-6 service-item" data-aos="fade-up" data-aos-delay="300">
+              <div className="icon flex-shrink-0">
+                <i className="bi bi-person-check" style={{ color: "#15a04a" }}></i> {/* HR Consultancy */}
+              </div>
+              <div>
+                <h4 className="title">HR Consultancy</h4>
+                <p className="description">
+                  Our HR consultancy services focus on optimizing your workforce management, enhancing employee engagement, and ensuring compliance with labor laws. We provide tailored solutions to help your business thrive.
+                </p>
               </div>
             </div>
           </div>
-        </section>
+        </div>
+      </section>
+
       </main>
 
       <Footer />

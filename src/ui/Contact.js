@@ -100,11 +100,11 @@ const Contact = () => {
                     <h4>Location:</h4>
                     <h5>Nairobi, Kenya:</h5>
                     <p>
-                    Moi Avenue, <br /> 2ND Street, 00100 Nairobi.
+                    Ruhan Plaza, <br />
                     </p>
                     <br />
                     <h5>Address:</h5>
-                    <p>P.O.Box No 00100 Nairobi. </p>
+                    <p>P.O.Box 23528-00100 </p>
                   </div>
                 </div>
 
