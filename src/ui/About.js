@@ -173,7 +173,7 @@ const About = () => {
             </div>
             <div className="col-md-10">
               <div className="member-info">
-                <h4>Ruth Munithi</h4>
+                <h4>Ruth Muriithi</h4>
                 <span>Startup Communication Specialist</span>
                 <p>
                   Ruth focuses on enhancing communication strategies for startups, ensuring clear messaging that aligns with business goals. Her expertise helps startups effectively engage with their audiences.
