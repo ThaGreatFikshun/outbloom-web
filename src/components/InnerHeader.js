@@ -8,14 +8,10 @@ const InnerHeader = () => {
     scroll.scrollToTop({ delay: 0, duration: 0 });
   };
 
-  // Assigning location variable
   const location = useLocation();
   const { pathname } = location;
-
-  // JavaScript split method to get the name of the path in array
   const splitLocation = pathname.split("/");
 
-  // Sticky header
   useEffect(() => {
     const selectHeader = document.querySelector("#header");
     if (selectHeader) {
@@ -27,7 +23,6 @@ const InnerHeader = () => {
     }
   }, []);
 
-  // Mobile view menu
   const mobilemenu = (event) => {
     event.preventDefault();
     const mobileNavShow = document.querySelector(".mobile-nav-show");
@@ -46,7 +41,10 @@ const InnerHeader = () => {
               src={logo}
               alt="Outbloom Org"
               title="Outbloom Org"
-              style={{ width: '150px', height: 'auto' }} // Adjusted size for better visibility
+              style={{
+                maxHeight: "120px", // Constrain the logo's height
+                width: "auto", // Ensure the aspect ratio is maintained
+              }}
             />
           </Link>
           <span onClick={mobilemenu}>
@@ -56,47 +54,45 @@ const InnerHeader = () => {
           <nav id="navbar" className="navbar">
             <ul onClick={mobilemenu}>
               <li>
-                <Link to="/" className={splitLocation[1] === "" ? "active" : ""}> Home</Link>
+                <Link to="/" className={splitLocation[1] === "" ? "active" : ""}>
+                  Home
+                </Link>
               </li>
               <li>
-                <Link to="/about" className={splitLocation[1] === "about" ? "active" : ""}> About Us</Link>
+                <Link to="/about" className={splitLocation[1] === "about" ? "active" : ""}>
+                  About Us
+                </Link>
               </li>
               <li>
-                <Link to="/services" className={splitLocation[1] === "services" ? "active" : ""}> Services</Link>
+                <Link to="/services" className={splitLocation[1] === "services" ? "active" : ""}>
+                  Services
+                </Link>
               </li>
               <li>
-                <Link to="/careers" className={splitLocation[1] === "careers" ? "active" : ""}> Careers</Link>
+                <Link to="/careers" className={splitLocation[1] === "careers" ? "active" : ""}>
+                  Careers
+                </Link>
               </li>
               <li>
-                <Link to="/contact" className={splitLocation[1] === "contact" ? "active" : ""}> Contact Us</Link>
+                <Link to="/contact" className={splitLocation[1] === "contact" ? "active" : ""}>
+                  Contact Us
+                </Link>
               </li>
               <li>
-                <Link to="/partner" className={splitLocation[1] === "partner" ? "active" : ""}> Partners</Link>
+                <Link to="/partner" className={splitLocation[1] === "partner" ? "active" : ""}>
+                  Partners
+                </Link>
               </li>
               <li>
-                <Link to="/hire" className={splitLocation[1] === "hire" ? "active" : ""}> Hire Us</Link>
+                <Link to="/hire" className={splitLocation[1] === "hire" ? "active" : ""}>
+                  Hire Us
+                </Link>
               </li>
             </ul>
           </nav>
         </div>
-
-        {/* CSS for Logo and Header */}
-        <style jsx>{`
-          .header .logo img {
-            width: 150px; /* Ensures logo is visible */
-            height: auto; /* Maintains aspect ratio */
-          }
-          #navbar ul {
-            padding-left: 0; /* Removes default padding */
-            margin: 0; /* Removes default margin */
-          }
-          #navbar ul li {
-            margin-right: 15px; /* Adjusts space between navigation items */
-          }
-        `}</style>
-
       </header>
-
+      <br />
     </>
   );
 };
